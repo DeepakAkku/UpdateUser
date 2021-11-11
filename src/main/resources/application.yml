@@ -1,9 +1,8 @@
-server:
-  port: 8081
+
 
 
 
 
 cgi:
   userUpdate:
-    host:https://localhost:8081/engine-rest
+    host: http://localhost:8083/engine-rest

@@ -2,7 +2,8 @@ package com.cgi.userupdate.client;
 
 import com.cgi.userupdate.Models.request.AddUserRequest;
 import com.cgi.userupdate.Models.request.UpdateUserRequest;
-import org.springframework.cloud.netflix.feign.FeignClient;
+
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
